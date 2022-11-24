@@ -1,0 +1,11 @@
+import tkinter as tk      
+top = tk.Tk()
+top.geometry('500x500')
+top.title('Practise InterFace')
+lable=tk.Label(top,text='Hi There',font=('Arial',18))
+lable.pack(padx=20,pady=20)
+textbox=tk.Text(top,font=('Arial',18),height=2)
+textbox.pack(padx=20)
+myentry=tk.Entry(top)
+myentry.pack()
+top.mainloop()
